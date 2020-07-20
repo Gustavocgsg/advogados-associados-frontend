@@ -17,7 +17,11 @@ export default function AdminLayout(props) {
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="stylesheet" href="../../assets/css/style-admin.css" />
-                <link rel="stylesheet" href="../../assets/fontawesome/CSS/all.min.css" />
+                <link href="../../assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+                <link rel="icon" href="../public/favicon.svg" type="image/svg+xml" sizes="16x16"></link>
+                <link rel="icon" href="../..public/favicon.svg" type="image/svg+xml" sizes="16x16"></link>
+                <link rel="icon" href="../public/favicon.ico" type="image/x-icon"></link>
+                <link rel="icon" href="public/favicon.ico" type="image/x-icon"></link>
                 
                 <title>Painel Administrativo</title>
             </Head>
