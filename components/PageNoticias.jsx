@@ -87,14 +87,14 @@ export default function PageNoticias() {
                     )
                 }
             </section> */}
-            <section className="hero" data-animate="top">
+            {/* <section className="hero" data-animate="top">
                 <div className="container-image">
                     <div className="texto-image">
                         <h1>Gustavo Teste de Utilização</h1>
                         <p>Mussum Ipsum, cacilds vidis litro abertis. A ordem dos tratores não altera o pão duris. </p>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* <section className="section">
                 <div className="container is-light">
                     <div className="columns">

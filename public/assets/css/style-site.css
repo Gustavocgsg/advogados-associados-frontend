@@ -1,5 +1,9 @@
 html, body{
-    /* font-size: 14px; */
+    font-size: 14px;
+}
+.bg-coffer{
+    background-color: #130501 !important;
+    border-radius: 5px;
 }
 #social-midia{
     display: hidden;
