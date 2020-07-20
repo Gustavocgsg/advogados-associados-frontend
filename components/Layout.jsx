@@ -37,6 +37,7 @@ export default function Layout(props) {
         <section>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="theme-color" content="#fafafa"/>
                 <link href="../../assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
                 <link href="../../assets/css/style-site.css" rel="stylesheet" type="text/css" />
                 <link rel="icon" href="../public/favicon.svg" type="image/svg+xml" sizes="16x16"></link>
