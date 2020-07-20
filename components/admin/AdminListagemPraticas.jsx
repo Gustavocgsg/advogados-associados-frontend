@@ -144,8 +144,8 @@ function TableRow(props){
                             <td>{ item.description }</td>
                             <td>{ item.showingoff ? "Sim"  : "Não" }</td>
                             <td>{ item.created_at }</td>
-                            <td><Link href={ "/admin/cadastroPratica?id=" + item.id }><a href="#"><i className="fas fa-pencil-alt"></i>Atualizar</a></Link></td>
-                            <td><a onClick={ e => props.deleteRow(e,item.id) }><i className="fas fa-trash-alt"></i>Remover</a></td>
+                            <td><Link href={ "/admin/cadastroPratica?id=" + item.id }><a href="#"><i className="fas fa-pencil-alt"></i> Atualizar</a></Link></td>
+                            <td><a onClick={ e => props.deleteRow(e,item.id) }><i className="fas fa-trash-alt"></i> Remover</a></td>
                         </tr>
                     )
                 }
