@@ -85,7 +85,7 @@ export default function Login() {
                 {/* <div id="msg" className="erro">Deu Erro seu login falhou...</div> */}
             </div>
             <div>
-                {JSON.stringify(user)}
+                {/* {JSON.stringify(user)} */}
             </div>
         </section>
     )
