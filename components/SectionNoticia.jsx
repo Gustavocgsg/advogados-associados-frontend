@@ -17,6 +17,7 @@ export default function SectionNoticia(props) {
                 <a href="#">
                     <p className="title has-text-weight-bold is-size-4 is-size-5-mobile pb-4">{ props.maintitle }</p>
                     <p dangerouslySetInnerHTML={{ __html: props.new.slice(0, 400) }} className="subtitle is-size-5 is-size-6-mobile text-notice-space"></p>
+                    <p className="title has-text-weight-bold is-size-4 is-size-5-mobile pb-4">{ props.created_at }</p>
                 </a>
             </Link>
             </div>
