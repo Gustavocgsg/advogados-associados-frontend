@@ -69,7 +69,7 @@ export default function Login() {
                             <h3 className="is-size-3 has-text-centered px-3 py-3">Área Restrita</h3>
                             <div className="field">
                                 <div className="control has-icons-left has-icons-right">
-                                    <input className="input is-medium" type="email" name="email" value={user.email} onChange={onChange} placeholder="Informe seu E-mail" />
+                                    <input className="input is-medium is-size-4" type="email" name="email" value={user.email} onChange={onChange} placeholder="Informe seu E-mail" />
                                     <span className="icon is-left">
                                         <i className="fas fa-envelope"></i>
                                     </span>
@@ -80,7 +80,7 @@ export default function Login() {
                             </div>
                             <div className="field">
                                 <div className="control has-icons-left has-icons-right">
-                                    <input className="input is-medium" type="password" name="password" value={user.password} onChange={onChange} placeholder="Informe sua senha" />
+                                    <input className="input is-medium is-size-4" type="password" name="password" value={user.password} onChange={onChange} placeholder="Informe sua senha" />
                                     <span className="icon is-left">
                                         <i className="fas fa-lock"></i>
                                     </span>
@@ -92,7 +92,7 @@ export default function Login() {
                             </div>
                             <div className="field">
                                 <div className="control">
-                                    <button type="submit" className="button is-link">Logar</button>
+                                    <button type="submit" className="button is-link is-primary">Logar</button>
                                 </div>
                             </div>
                         </form>
