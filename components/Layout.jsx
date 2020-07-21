@@ -34,7 +34,7 @@ export default function Layout(props) {
     }, [])
 
     return (
-        <section>
+        <html lang="pt-BR">
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="theme-color" content="#fafafa"/>
@@ -47,14 +47,16 @@ export default function Layout(props) {
                 
                 <title>Index - Advogados Associados</title>
             </Head>
-            <Header />
-            <Main>
-                { props.children }
-            </Main>
-            <Footer />
-            {/* <script src="/jquery/dist/jquery.min.js"></script>
-            <script src="../../assets/fontawesome/js/all.min.js"></script>
-            <script src="../../assets/jquery/dist/jquery.min.js"></script> */}
-        </section>
+            <body>
+                <Header />
+                <Main>
+                    { props.children }
+                </Main>
+                <Footer />
+                {/* <script src="/jquery/dist/jquery.min.js"></script>
+                <script src="../../assets/fontawesome/js/all.min.js"></script>
+                <script src="../../assets/jquery/dist/jquery.min.js"></script> */}
+            </body>
+        </html>
     )
 }
