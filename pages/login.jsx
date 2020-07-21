@@ -92,7 +92,7 @@ export default function Login() {
                             </div>
                             <div className="field">
                                 <div className="control">
-                                    <button type="submit" className="button is-link is-primary">Logar</button>
+                                    <button type="submit" className="button is-primary">Logar</button>
                                 </div>
                             </div>
                         </form>
