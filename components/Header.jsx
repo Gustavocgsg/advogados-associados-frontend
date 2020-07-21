@@ -17,9 +17,9 @@ export default function Header(){
                     <div className="container">
                         <nav className="level px-3 py-3">
                             <div className="level-left has-text-white-bis">
-                                <p className="level-item"><Link href="/contato"><a href="" className="link has-text-white-bis"><span><i className="fas fa-phone-alt"></i></span> 81 992185304</a></Link></p>
-                                <p className="level-item"><Link href="/contato"><a href="" className="link has-text-white-bis"><span><i className="fas fa-at"></i></span> gustavocgsg@gmail.com</a></Link></p>
-                                <p className="level-item"><Link href="/contato"><a href="" className="link has-text-white-bis"><span><i className="fas fa-map-marker-alt"></i></span> Google Maps</a></Link></p>
+                                <p className="level-item"><Link href="/contato"><a href="#" className="link has-text-white-bis"><span><i className="fas fa-phone-alt"></i></span> 81 992185304</a></Link></p>
+                                <p className="level-item"><Link href="/contato"><a href="#" className="link has-text-white-bis"><span><i className="fas fa-at"></i></span> gustavocgsg@gmail.com</a></Link></p>
+                                <p className="level-item"><Link href="/contato"><a href="#" className="link has-text-white-bis"><span><i className="fas fa-map-marker-alt"></i></span> Google Maps</a></Link></p>
                             </div>
                             <div className="level-right has-text-white-bis">
                                 <p className="level-item"><a href="http://www.linkedin.com" className="link has-text-white-bis"><i className="fab fa-linkedin-in"></i></a></p>
@@ -40,7 +40,7 @@ export default function Header(){
                                         <img src="../assets/images/logo-advogados-associados.svg" alt="Logo Advogados Associados" width="100%" />
                                     </a>
                                 </Link>
-                                <a role="button" onClick={onButtonClick} className="navbar-burger" data-target="navMenu" area-label="menu" aria-expanded="false">
+                                <a  href="#" role="Menu Hamburguer" onClick={onButtonClick} className="navbar-burger" data-target="navMenu" area-label="menu" aria-expanded="false">
                                     <span aria-hidden="true"></span>
                                     <span aria-hidden="true"></span>
                                     <span aria-hidden="true"></span>
