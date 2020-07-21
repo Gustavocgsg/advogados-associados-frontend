@@ -87,7 +87,7 @@ export default function Login() {
                                     <span className="icon is-right">
                                         <i className="fas fa-check fa-sm"></i>
                                     </span>
-                                    <p className="px-3 py-3"><a href="#">Esqueci minha senha</a></p>
+                                    <p className="px-3 py-3"><Link href="/"><a href="#">Esqueci minha senha</a></Link></p>
                                 </div>
                             </div>
                             <div className="field">

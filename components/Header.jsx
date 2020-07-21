@@ -35,9 +35,11 @@ export default function Header(){
                     <div className="container">
                         <nav className="navbar" role="navegation" aria-label="main navigation">
                             <div className="navbar-brand">
-                                <a href="/" alt="Menu Home">
-                                    <img src="../assets/images/logo-advogados-associados.svg" alt="Logo" width="100%" />
-                                </a>
+                                <Link href="/">
+                                    <a href="#" alt="Menu Home">
+                                        <img src="../assets/images/logo-advogados-associados.svg" alt="Logo Advogados Associados" width="100%" />
+                                    </a>
+                                </Link>
                                 <a role="button" onClick={onButtonClick} className="navbar-burger" data-target="navMenu" area-label="menu" aria-expanded="false">
                                     <span aria-hidden="true"></span>
                                     <span aria-hidden="true"></span>
@@ -46,15 +48,15 @@ export default function Header(){
                             </div>
                             <div className={'navbar-menu' + (openMenu ? ' is-active' : '')} id="navbar-menu-site">
                                 <div className="navbar-start px-5">
-                                    <Link href="/"><a className="navbar-item is-active" alt="Menu Home">Home</a></Link>
-                                    <Link href="/sobre"><a className="navbar-item" alt="Menu Sobre">Sobre</a></Link>
-                                    <Link href="/servicos"><a className="navbar-item" alt="Menu Serviços">Serviços</a></Link>
-                                    <Link href="/praticas"><a className="navbar-item" alt="Menu Práticas Jurídicas">Práticas Jurídicas</a></Link>
-                                    <Link href="/noticias"><a className="navbar-item" alt="Menu Notícias">Notícias</a></Link>
-                                    <Link href="/contato"><a className="navbar-item" alt="Menu Contato">Contato</a></Link>
+                                    <Link href="/"><a href="#" className="navbar-item is-active" alt="Menu Home">Home</a></Link>
+                                    <Link href="/sobre"><a href="#" className="navbar-item" alt="Menu Sobre">Sobre</a></Link>
+                                    <Link href="/servicos"><a href="#" className="navbar-item" alt="Menu Serviços">Serviços</a></Link>
+                                    <Link href="/praticas"><a href="#" className="navbar-item" alt="Menu Práticas Jurídicas">Práticas Jurídicas</a></Link>
+                                    <Link href="/noticias"><a href="#" className="navbar-item" alt="Menu Notícias">Notícias</a></Link>
+                                    <Link href="/contato"><a href="#" className="navbar-item" alt="Menu Contato">Contato</a></Link>
                                 </div>
                                 <div className="navbar-end">
-                                    <Link href="/login"><a className="navbar-item" alt="Menu Contato"><button className="button is-primary"><span className="px-3"><i className="fas fa-user-lock"></i></span>Restrito</button></a></Link>
+                                    <Link href="/login"><a href="#" className="navbar-item" alt="Menu Contato"><button className="button is-primary"><span className="px-3"><i className="fas fa-user-lock"></i></span>Restrito</button></a></Link>
                                 </div>
                             </div>
                         </nav>

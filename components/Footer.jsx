@@ -14,12 +14,12 @@ export default function Footer() {
                     <div className="column">
                         <h5 className="has-text-weight-bold pb-5 is-size-5">Links Rápidos</h5>
                         <ul className="menu-list">
-                            <li><Link href="/"><a className="has-text-white" alt="Rodapé Home"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Home</a></Link></li>
-                            <li><Link href="/sobre"><a className="has-text-white" alt="Rodapé Sobre"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Sobre</a></Link></li>
-                            <li><Link href="/servicos"><a className="has-text-white" alt="Rodapé Serviços"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Serviços</a></Link></li>
-                            <li><Link href="/praticas"><a className="has-text-white" alt="Rodapé Práticas Jurídicas"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Práticas Jurídicas</a></Link></li>
-                            <li><Link href="/noticias"><a className="has-text-white" alt="Rodapé Notícias"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Notícias</a></Link></li>
-                            <li><Link href="/contato"><a className="has-text-white" alt="Rodapé Contato"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Contato</a></Link></li>
+                            <li><Link href="/"><a href="#" className="has-text-white" alt="Rodapé Home"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Home</a></Link></li>
+                            <li><Link href="/sobre"><a href="#" className="has-text-white" alt="Rodapé Sobre"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Sobre</a></Link></li>
+                            <li><Link href="/servicos"><a href="#" className="has-text-white" alt="Rodapé Serviços"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Serviços</a></Link></li>
+                            <li><Link href="/praticas"><a href="#" className="has-text-white" alt="Rodapé Práticas Jurídicas"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Práticas Jurídicas</a></Link></li>
+                            <li><Link href="/noticias"><a href="#" className="has-text-white" alt="Rodapé Notícias"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Notícias</a></Link></li>
+                            <li><Link href="/contato"><a href="#" className="has-text-white" alt="Rodapé Contato"><span className="pr-3"><i className="fas fa-caret-right"></i></span> Contato</a></Link></li>
                         </ul>
                     </div>
                     <div className="column">
@@ -33,9 +33,9 @@ export default function Footer() {
                     <div className="column">
                         <h5 className="has-text-weight-bold pb-5 is-size-5">Contato</h5>
                         <ul className="menu-list">
-                            <li><Link href="/contato"><a className="has-text-white" alt="Rodapé Endereço"><span className="pr-3"><i className="fas fa-map-marker-alt"></i></span> Endereço: Rua Amazonas, 315 <br /> Boa Viagem, Recife-PE</a></Link></li>
-                            <li><Link href="/contato"><a className="has-text-white" alt="Rodapé Telefone"><span className="pr-3"><i className="fas fa-phone-alt"></i></span> Telefone: 81 34654523</a></Link></li>
-                            <li><Link href="/contato"><a className="has-text-white" alt="Rodapé Horário"><span className="pr-3"><i className="fas fa-clock"></i></span> Horário: seg a sex 8h às 18h</a></Link></li>
+                            <li><Link href="/contato"><a href="#" className="has-text-white" alt="Rodapé Endereço"><span className="pr-3"><i className="fas fa-map-marker-alt"></i></span> Endereço: Rua Amazonas, 315 <br /> Boa Viagem, Recife-PE</a></Link></li>
+                            <li><Link href="/contato"><a href="#" className="has-text-white" alt="Rodapé Telefone"><span className="pr-3"><i className="fas fa-phone-alt"></i></span> Telefone: 81 34654523</a></Link></li>
+                            <li><Link href="/contato"><a href="#" className="has-text-white" alt="Rodapé Horário"><span className="pr-3"><i className="fas fa-clock"></i></span> Horário: seg a sex 8h às 18h</a></Link></li>
                         </ul>
                     </div>
                 </div>
