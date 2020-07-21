@@ -5,6 +5,9 @@ html, body{
     background-color: #130501 !important;
     border-radius: 5px;
 }
+.img-call-center-inside{
+    border-radius: 50%;
+}
 #social-midia{
     display: hidden;
 }
@@ -27,11 +30,11 @@ html, body{
     background: url("../images/banner-1920x450-linha-index.svg") no-repeat;
     background-size: cover;
 }
-.img-full-insise{
+.img-full-insise{/* inside */
     background: url("../images/banner-1920x450-interna.svg") no-repeat;
     background-size: cover;
 }
-.img-full-insise-two{
+.img-full-insise-two{/* inside */
     background: url("../images/banner-1920x450-linha-dois.svg") no-repeat;
     background-size: cover;
 }
@@ -61,6 +64,20 @@ html, body{
 .breadcrumb li .is-active{
     font-weight: bold;
     color: rgb(108, 154, 228)!important;
+}
+.bg-login {
+    background-color: #2d364c !important;
+    height: 100vh;
+}
+.boxshadow-login{
+    /* background-color: #fff; */
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: white;
 }
 .boxshadow{
     /* background-color: #fff; */
@@ -141,5 +158,10 @@ html, body{
     #social-midia{
         display: flex;
     }
-
+    .bg-login{
+        height: 100vh;
+    }
+    .bg-login .container {
+        max-width: 350px;
+    }
 }

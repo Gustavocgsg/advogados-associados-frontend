@@ -4,6 +4,7 @@ import { useState } from 'react'
 // import { setCookie } from 'react-cookie'
 import { Cookies } from 'react-cookie'
 import Router from 'next/router'
+import Head from 'next/head'
 
 <style jsx>{`
     .erro {
@@ -48,45 +49,56 @@ export default function Login() {
                 }
             // alert('Deu erro, login falhou !')
         }
-    }
+    }    
     return (
-        <section className="hero">
-            <div className="container">
-                <form onSubmit={onSubmit}>
-                    <h1 className="is-size-1 has-text-centered">Área restrita</h1>
-                    <div className="field">
-                        <div className="control has-icons-left has-icons-right">
-                            <input className="input is-medium" type="email" name="email" value={user.email} onChange={onChange} placeholder="Informe seu E-mail" />
-                            <span className="icon is-left">
-                                <i className="fas fa-envelope"></i>
-                            </span>
-                            <span className="icon is-right">
-                                <i className="fas fa-check fa-sm"></i>
-                            </span>
-                        </div>
+        <section className="bg-login is-centered bg-login">
+            <Head>
+                <link href="../../assets/css/style-site.css" rel="stylesheet" type="text/css" />
+                <link rel="icon" href="../public/favicon.svg" type="image/svg+xml" sizes="16x16"></link>
+                <link rel="icon" href="../..public/favicon.svg" type="image/svg+xml" sizes="16x16"></link>
+                <link rel="icon" href="../public/favicon.ico" type="image/x-icon"></link>
+                <link rel="icon" href="public/favicon.ico" type="image/x-icon"></link>
+                
+                <title>Área Administrativa | Login</title>
+            </Head>
+            <section className="hero is-large is-bold">
+                <div className="hero-body">
+                    <div className="container has-text-centered boxshadow-login">
+                        {/* {JSON.stringify(user)} */}
+                        <form onSubmit={onSubmit}>
+                            <h3 className="is-size-3 has-text-centered px-3 py-3">Área Restrita</h3>
+                            <div className="field">
+                                <div className="control has-icons-left has-icons-right">
+                                    <input className="input is-medium" type="email" name="email" value={user.email} onChange={onChange} placeholder="Informe seu E-mail" />
+                                    <span className="icon is-left">
+                                        <i className="fas fa-envelope"></i>
+                                    </span>
+                                    <span className="icon is-right">
+                                        <i className="fas fa-check fa-sm"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div className="field">
+                                <div className="control has-icons-left has-icons-right">
+                                    <input className="input is-medium" type="password" name="password" value={user.password} onChange={onChange} placeholder="Informe sua senha" />
+                                    <span className="icon is-left">
+                                        <i className="fas fa-lock"></i>
+                                    </span>
+                                    <span className="icon is-right">
+                                        <i className="fas fa-check fa-sm"></i>
+                                    </span>
+                                    <p className="px-3 py-3"><a href="#">Esqueci minha senha</a></p>
+                                </div>
+                            </div>
+                            <div className="field">
+                                <div className="control">
+                                    <button type="submit" className="button is-link">Logar</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div className="field">
-                        <div className="control has-icons-left has-icons-right">
-                            <input className="input is-medium" type="password" name="password" value={user.password} onChange={onChange} placeholder="Informe sua senha" />
-                            <span className="icon is-left">
-                                <i className="fas fa-lock"></i>
-                            </span>
-                            <span className="icon is-right">
-                                <i className="fas fa-check fa-sm"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div className="field">
-                        <div className="control">
-                            <button type="submit" className="button is-link">entrar</button>
-                        </div>
-                    </div>
-                </form>
-                {/* <div id="msg" className="erro">Deu Erro seu login falhou...</div> */}
-            </div>
-            <div>
-                {/* {JSON.stringify(user)} */}
-            </div>
+                </div>
+            </section>
         </section>
     )
 }

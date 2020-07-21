@@ -80,7 +80,7 @@ export default function PageNoticiasInterna(props) {
                         </div>
                     </div>
                 </section>
-                <section className="section">
+                {/* <section className="section">
                     <div className="container">
                         <div className="columns">
                             <div className="column is-three-quarters">
@@ -90,7 +90,7 @@ export default function PageNoticiasInterna(props) {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </section>
         </section>
     )
